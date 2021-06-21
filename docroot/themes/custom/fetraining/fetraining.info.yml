@@ -1,0 +1,9 @@
+name: FE Training
+type: theme
+description: 'Used Cog theme as base.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: classy
+libraries:
+  - fetraining/fontawesome
+  - fetraining/global_styles

@@ -12,8 +12,8 @@
 project:
   machine_name: fe-training
   # Used for enforcing correct git commit msg syntax.
-  prefix: BLT
-  human_name: 'BLTed 10'
+  prefix: FET
+  human_name: 'FE Training'
   profile:
     name: lightning
   # This will be used as the local uri for all developers.
