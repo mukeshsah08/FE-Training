@@ -1,0 +1,124 @@
+{%
+  set classes = [
+    'block',
+    'block-' ~ configuration.provider|clean_class,
+    'block-' ~ plugin_id|clean_class,
+  ]
+
+%}
+
+{% set display_order = (content['field_display_order'][0]['#markup'] is not empty)? content['field_display_order'][0]['#markup']: 'center_text_image'
+%}
+
+{% if label %}
+ {% set heading_type = (content['field_heading_type'][0]['#markup'] is not empty)? content['field_heading_type'][0]['#markup']: 'h2'
+%}
+{% endif %}
+
+{% if display_order == 'left_text_right_image' %}
+  <section class="banner_main">
+    <div class="container">
+       <div class="row d_flex">
+          <div class="col-md-5">
+             <div class="text-bg">
+               {# start of title #}
+                {% if label %}
+                <{{heading_type}}>{{ label }}</{{heading_type}}>
+                {% endif %}
+                {# end of title #}   
+                {{ title_suffix }}
+                {% if content['field_title'] %}
+                <span>{{ content['field_title'] }}</span>
+                {% endif %}
+                {{ content['body'] }}
+                {{ content['field_link'] }}
+             </div>
+          </div>
+          <div class="col-md-7">
+             <div class="text-img">
+                <figure>{{ content['field_banner_image'] }}</figure>
+             </div>
+          </div>
+       </div>
+    </div>
+ </section>
+{% elseif display_order == 'center_text_image' %}
+<div id="" class="hosting">
+  <div class="container">
+    {% if label %}
+     <div class="row">
+        <div class="col-md-12">          
+           <div class="titlepage">
+              <{{heading_type}}>{{ label }}</{{heading_type}}>
+              {{ title_suffix }}
+           </div>
+        </div>
+     </div>
+     {% endif %}
+     
+     <div class="row">
+        <div class="col-md-12">
+           <div class="web_hosting">
+            {% if content['field_title'] %}
+            <span>{{ content['field_title'] }}</span>
+            {% endif %}
+            {% if content['field_banner_image'] %}
+              <figure>{{ content['field_banner_image'] }}</figure>
+            {% endif %}  
+            {{ content['body'] }}
+            {{ content['field_link'] }}
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+{% elseif display_order == 'center_text' %}
+<section id="cta" class="m-text-cta">
+  <div class="container aos-init aos-animate" data-aos="zoom-in">
+    <div class="text-center">
+      {% if label %}
+      <div class="titlepage">
+         <{{heading_type}}>{{ label }}</{{heading_type}}>
+         {{ title_suffix }}
+      </div>
+      {% endif %}
+      
+      {{ content['body'] }}
+      <div class="web_hosting">
+        {{ content['field_link'] }}
+      </div>
+    </div>
+  </div>
+</section>
+{% elseif display_order == 'aboutus_block' %}
+<section id="m-aboutus-block" class="m-aboutus-block">
+          <div class="section-title">
+            {% if label %}
+              <{{heading_type}}>{{ label }}</{{heading_type}}>
+              {% endif %}
+              {{ title_suffix }}   
+            <div>{{ content['field_title'] }}</div>
+          </div>  
+          {{ content['body'] }} 
+          <div class="web_hosting">  
+            {{ content['field_link'] }}
+          </div>
+</section>
+{% elseif display_order == 'aboutus_tile' %}
+  <div class="m-aboutus-count-box"> 
+    <div class="icon-count">
+      <div class="row"><div class="col-md-4">  {% if content['field_banner_image'] %}
+        <figure>{{ content['field_banner_image'] }}</figure>
+      {% endif %} </div><div class="col-md-4">  <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter">{{ label }} </span>
+
+        {{ title_suffix }}</div></div>
+
+
+
+  </div>
+  <div class="count-text">
+  {{ content['body'] }}
+  {{ content['field_link'] }}
+</div>
+  </div>     
+{% endif %}
