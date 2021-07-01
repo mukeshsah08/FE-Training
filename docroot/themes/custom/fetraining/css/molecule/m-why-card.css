@@ -1,0 +1,15 @@
+.why-box {
+  -webkit-box-shadow: #ddd 0px 0px 10px;
+  box-shadow: #ddd 0px 0px 10px;
+  border: none;
+  padding: 40px 20px 20px 20px;
+}
+
+.why-box:hover {
+  -webkit-transition: ease-in all 0.1s;
+  transition: ease-in all 0.1s;
+  -webkit-transform: scale(1.04);
+  transform: scale(1.04);
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm0td2h5LWNhcmQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usc0NBQThCO0VBQTlCLDhCQUE4QjtFQUM5QixhQUFhO0VBQ2IsNkJBQTZCO0NBQzlCOztBQUVEO0VBQ0UscUNBQTZCO0VBQTdCLDZCQUE2QjtFQUM3QiwrQkFBdUI7RUFBdkIsdUJBQXVCO0NBQ3hCIiwiZmlsZSI6Im1vbGVjdWxlL20td2h5LWNhcmQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLndoeS1ib3gge1xuICBib3gtc2hhZG93OiAjZGRkIDBweCAwcHggMTBweDtcbiAgYm9yZGVyOiBub25lO1xuICBwYWRkaW5nOiA0MHB4IDIwcHggMjBweCAyMHB4O1xufVxuXG4ud2h5LWJveDpob3ZlciB7XG4gIHRyYW5zaXRpb246IGVhc2UtaW4gYWxsIDAuMXM7XG4gIHRyYW5zZm9ybTogc2NhbGUoMS4wNCk7XG59XG4iXX0= */

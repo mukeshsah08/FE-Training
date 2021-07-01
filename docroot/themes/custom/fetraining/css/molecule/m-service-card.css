@@ -1,0 +1,19 @@
+.Services-box:hover {
+  background: #8308eb;
+  -webkit-transition: ease-in all 0.5s;
+  transition: ease-in all 0.5s;
+  cursor: pointer;
+}
+
+.Services-box .logo {
+  background: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  padding-top: 19px;
+}
+
+.Services-box h3 {
+  color: #fff;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm0tc2VydmljZS1jYXJkLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLG9CQUFvQjtFQUNwQixxQ0FBNkI7RUFBN0IsNkJBQTZCO0VBQzdCLGdCQUFnQjtDQUNqQjs7QUFFRDtFQUNFLGlCQUFpQjtFQUNqQixvQkFBb0I7RUFDcEIsc0JBQXNCO0VBQ3RCLGtCQUFrQjtDQUNuQjs7QUFFRDtFQUNFLFlBQVk7Q0FDYiIsImZpbGUiOiJtb2xlY3VsZS9tLXNlcnZpY2UtY2FyZC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuU2VydmljZXMtYm94OmhvdmVyIHtcbiAgYmFja2dyb3VuZDogIzgzMDhlYjtcbiAgdHJhbnNpdGlvbjogZWFzZS1pbiBhbGwgMC41cztcbiAgY3Vyc29yOiBwb2ludGVyO1xufVxuXG4uU2VydmljZXMtYm94IC5sb2dvIHtcbiAgYmFja2dyb3VuZDogI2ZmZjtcbiAgYm9yZGVyLXJhZGl1czogNTBweDtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBwYWRkaW5nLXRvcDogMTlweDtcbn1cblxuLlNlcnZpY2VzLWJveCBoMyB7XG4gIGNvbG9yOiAjZmZmO1xufVxuIl19 */

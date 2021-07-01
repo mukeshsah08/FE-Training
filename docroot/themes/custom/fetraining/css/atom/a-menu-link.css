@@ -1,0 +1,17 @@
+.a-menu-item a {
+  padding: 0 25px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.a-menu-item a:focus,
+.a-menu-item a:hover {
+  color: #fdd430;
+}
+
+.a-menu-item a.is-active {
+  color: #fdd430 !important;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImEtbWVudS1saW5rLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGdCQUFnQjtFQUNoQixZQUFZO0VBQ1osZ0JBQWdCO0VBQ2hCLGtCQUFrQjtDQUNuQjs7QUFFRDs7RUFFRSxlQUFlO0NBQ2hCOztBQUVEO0VBQ0UsMEJBQTBCO0NBQzNCIiwiZmlsZSI6ImF0b20vYS1tZW51LWxpbmsuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmEtbWVudS1pdGVtIGEge1xuICBwYWRkaW5nOiAwIDI1cHg7XG4gIGNvbG9yOiAjZmZmO1xuICBmb250LXNpemU6IDE2cHg7XG4gIGxpbmUtaGVpZ2h0OiAyMHB4O1xufVxuXG4uYS1tZW51LWl0ZW0gYTpmb2N1cyxcbi5hLW1lbnUtaXRlbSBhOmhvdmVyIHtcbiAgY29sb3I6ICNmZGQ0MzA7XG59XG5cbi5hLW1lbnUtaXRlbSBhLmlzLWFjdGl2ZSB7XG4gIGNvbG9yOiAjZmRkNDMwICFpbXBvcnRhbnQ7XG59XG4iXX0= */

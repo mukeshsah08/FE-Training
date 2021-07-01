@@ -1,0 +1,20 @@
+.testimonials-listing-block {
+  background-color: #f6f9fd;
+  padding: 60px 0;
+}
+
+.testimonials-listing-block h2 {
+  padding-bottom: 40px;
+}
+
+.testimonials-listing-block .slick-dots li button:before {
+  color: #ed502e;
+  opacity: .25;
+}
+
+.testimonials-listing-block .slick-dots .slick-active button:before {
+  color: #ed502e;
+  opacity: 1;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm8tdGVzdGltb25pYWxzLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLDBCQUEwQjtFQUMxQixnQkFBZ0I7Q0FDakI7O0FBRUQ7RUFDRSxxQkFBcUI7Q0FDdEI7O0FBRUQ7RUFDRSxlQUFlO0VBQ2YsYUFBYTtDQUNkOztBQUVEO0VBQ0UsZUFBZTtFQUNmLFdBQVc7Q0FDWiIsImZpbGUiOiJvcmdhbmlzbS9vLXRlc3RpbW9uaWFscy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudGVzdGltb25pYWxzLWxpc3RpbmctYmxvY2sge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjZmOWZkO1xuICBwYWRkaW5nOiA2MHB4IDA7XG59XG5cbi50ZXN0aW1vbmlhbHMtbGlzdGluZy1ibG9jayBoMiB7XG4gIHBhZGRpbmctYm90dG9tOiA0MHB4O1xufVxuXG4udGVzdGltb25pYWxzLWxpc3RpbmctYmxvY2sgLnNsaWNrLWRvdHMgbGkgYnV0dG9uOmJlZm9yZSB7XG4gIGNvbG9yOiAjZWQ1MDJlO1xuICBvcGFjaXR5OiAuMjU7XG59XG5cbi50ZXN0aW1vbmlhbHMtbGlzdGluZy1ibG9jayAuc2xpY2stZG90cyAuc2xpY2stYWN0aXZlIGJ1dHRvbjpiZWZvcmUge1xuICBjb2xvcjogI2VkNTAyZTtcbiAgb3BhY2l0eTogMTtcbn1cbiJdfQ== */
