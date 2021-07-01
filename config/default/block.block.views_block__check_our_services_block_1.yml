@@ -1,0 +1,30 @@
+uuid: f9004fd2-62d3-4b09-a206-1e3beceb3aa0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.check_our_services
+  module:
+    - system
+    - views
+  theme:
+    - fetraining
+id: views_block__check_our_services_block_1
+theme: fetraining
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:check_our_services-block_1'
+settings:
+  id: 'views_block:check_our_services-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /service
+    negate: false
+    context_mapping: {  }

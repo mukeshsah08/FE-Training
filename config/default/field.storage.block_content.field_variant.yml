@@ -1,0 +1,27 @@
+uuid: 874f7be1-86d3-4e2b-b1fa-8870a125c37f
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_variant
+field_name: field_variant
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: left_text_right_image
+      label: 'Left (Title+Subtitle+Text+CTA) + Right (Image)'
+    -
+      value: centre_text_image
+      label: 'Centre (Title+Subtitle+Image+Text+CTA)'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

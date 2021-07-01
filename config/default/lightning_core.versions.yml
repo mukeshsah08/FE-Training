@@ -3,15 +3,13 @@ bg_image_formatter: 1.14.0
 blazy: 2.2.0
 block: 8.9.16
 block_content: 8.9.16
-bootstrap_layout_builder: 2.0.1
-bootstrap_layouts: 5.2.0
-bootstrap_styles: 1.0.3
 breakpoint: 8.9.16
 ckeditor: 8.9.16
 config: 8.9.16
 conflict: 2.0.0-alpha2
 consumers: 1.11.0
 contact: 8.9.16
+contact_block: 1.5.0
 contact_storage: 1.1.0
 content_moderation: 8.9.16
 contextual: 8.9.16
@@ -68,8 +66,6 @@ media: 8.9.16
 media_entity_instagram: 3.0.5
 media_entity_twitter: 2.7.0
 media_library: 8.9.16
-media_library_form_element: 2.0.3
-media_library_theme_reset: 1.1.0
 menu_link_content: 8.9.16
 menu_ui: 8.9.16
 metatag: 1.16.0
@@ -102,6 +98,7 @@ simple_gmap: 3.0.1
 simple_oauth: 4.5.0
 slick: 2.3.0
 slick_entityreference: 2.0.0
+slick_views: 2.4.0
 system: 8.9.16
 taxonomy: 8.9.16
 text: 8.9.16
@@ -109,5 +106,7 @@ token: 1.9.0
 toolbar: 8.9.16
 user: 8.9.16
 views: 8.9.16
+views_slideshow: 4.8.0
+views_slideshow_cycle: 4.8.0
 views_ui: 8.9.16
 workflows: 8.9.16

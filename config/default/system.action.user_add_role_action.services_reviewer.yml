@@ -1,0 +1,14 @@
+uuid: 22b2d073-5eab-4b04-88c1-ad69b19b18e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.services_reviewer
+  module:
+    - user
+id: user_add_role_action.services_reviewer
+label: 'Add the Services reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: services_reviewer

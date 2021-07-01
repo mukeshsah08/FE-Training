@@ -45,14 +45,9 @@ third_party_settings:
           - page_title_block
       allowed_layouts:
         - layout_onecol
-        - bs_1col
-        - bs_2col
-        - bs_4col
         - layout_twocol_section
         - layout_threecol_section
         - layout_fourcol_section
-        - 'bootstrap_layout_builder:blb_col_2'
-        - 'bootstrap_layout_builder:blb_col_4'
       blacklisted_blocks: {  }
     allowed_block_categories: {  }
 _core:

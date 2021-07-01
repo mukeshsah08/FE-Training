@@ -2,8 +2,6 @@ uuid: 79ac816b-0adf-4273-b232-98efcabebee0
 langcode: en
 status: true
 dependencies:
-  module:
-    - system
   theme:
     - fetraining
 _core:
@@ -11,7 +9,7 @@ _core:
 id: fetraining_page_title
 theme: fetraining
 region: content
-weight: -50
+weight: -9
 provider: null
 plugin: page_title_block
 settings:
@@ -19,9 +17,4 @@ settings:
   label: 'Page title'
   provider: core
   label_display: '0'
-visibility:
-  request_path:
-    id: request_path
-    pages: "/homepage\r\n/about\r\n/service"
-    negate: true
-    context_mapping: {  }
+visibility: {  }

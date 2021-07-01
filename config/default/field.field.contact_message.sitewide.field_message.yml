@@ -1,0 +1,19 @@
+uuid: 1eb4c651-0942-48da-892e-9d074eeb3970
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.sitewide
+    - field.storage.contact_message.field_message
+id: contact_message.sitewide.field_message
+field_name: field_message
+entity_type: contact_message
+bundle: sitewide
+label: Message
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

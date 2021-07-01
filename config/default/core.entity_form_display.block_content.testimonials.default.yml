@@ -1,0 +1,59 @@
+uuid: 28f28f7b-b675-49b9-bee7-4c1b6a3c2ac1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.testimonials
+    - entity_browser.browser.image_browser
+    - field.field.block_content.testimonials.body
+    - field.field.block_content.testimonials.field_designation
+    - field.field.block_content.testimonials.field_image
+  module:
+    - entity_browser
+    - text
+id: block_content.testimonials.default
+targetEntityType: block_content
+bundle: testimonials
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 3
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  field_designation:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_image:
+    type: entity_browser_file
+    weight: 2
+    settings:
+      entity_browser: image_browser
+      field_widget_edit: true
+      field_widget_remove: true
+      view_mode: default
+      preview_image_style: thumbnail
+      open: true
+      field_widget_replace: false
+      selection_mode: selection_append
+    region: content
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: Name
+    third_party_settings: {  }
+hidden: {  }

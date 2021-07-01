@@ -6,10 +6,9 @@ dependencies:
     - block_content.type.generic_block
     - field.field.block_content.generic_block.body
     - field.field.block_content.generic_block.field_banner_image
-    - field.field.block_content.generic_block.field_display_order
-    - field.field.block_content.generic_block.field_heading_type
     - field.field.block_content.generic_block.field_link
     - field.field.block_content.generic_block.field_title
+    - field.field.block_content.generic_block.field_variant
     - field.field.block_content.generic_block.field_wrapper_css_class
   module:
     - image
@@ -30,30 +29,16 @@ content:
     region: content
   field_banner_image:
     weight: 3
-    label: hidden
+    label: above
     settings:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
     type: image
     region: content
-  field_display_order:
-    weight: 6
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: list_key
-    region: content
-  field_heading_type:
-    weight: 8
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
   field_link:
     weight: 2
-    label: hidden
+    label: above
     settings:
       trim_length: 80
       url_only: false
@@ -65,15 +50,22 @@ content:
     region: content
   field_title:
     weight: 1
-    label: hidden
+    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
     region: content
+  field_variant:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
   field_wrapper_css_class:
     weight: 5
-    label: hidden
+    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }

@@ -14,7 +14,7 @@ _core:
 id: fetraining_search
 theme: fetraining
 region: content
-weight: 0
+weight: -3
 provider: null
 plugin: 'views_exposed_filter_block:search-page'
 settings:

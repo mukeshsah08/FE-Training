@@ -1,0 +1,19 @@
+uuid: 714ea53d-34c3-499a-9d1f-ca43febca166
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.sitewide
+    - field.storage.contact_message.field_email
+id: contact_message.sitewide.field_email
+field_name: field_email
+entity_type: contact_message
+bundle: sitewide
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

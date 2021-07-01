@@ -1,0 +1,14 @@
+uuid: 51276b02-b735-4d6f-b215-d2e41f97a822
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.services_reviewer
+  module:
+    - user
+id: user_remove_role_action.services_reviewer
+label: 'Remove the Services reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: services_reviewer

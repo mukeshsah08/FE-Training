@@ -1,0 +1,21 @@
+uuid: 5c17a2a3-db6d-4f50-a754-77687fb67246
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.generic_block
+    - field.storage.block_content.field_variant
+  module:
+    - options
+id: block_content.generic_block.field_variant
+field_name: field_variant
+entity_type: block_content
+bundle: generic_block
+label: Variant
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

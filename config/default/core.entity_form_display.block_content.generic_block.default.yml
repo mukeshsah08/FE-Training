@@ -7,10 +7,9 @@ dependencies:
     - entity_browser.browser.image_browser
     - field.field.block_content.generic_block.body
     - field.field.block_content.generic_block.field_banner_image
-    - field.field.block_content.generic_block.field_display_order
-    - field.field.block_content.generic_block.field_heading_type
     - field.field.block_content.generic_block.field_link
     - field.field.block_content.generic_block.field_title
+    - field.field.block_content.generic_block.field_variant
     - field.field.block_content.generic_block.field_wrapper_css_class
   module:
     - entity_browser
@@ -45,18 +44,6 @@ content:
       selection_mode: selection_append
     region: content
     third_party_settings: {  }
-  field_display_order:
-    weight: 27
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: content
-  field_heading_type:
-    weight: 29
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: content
   field_link:
     weight: 4
     settings:
@@ -72,6 +59,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
+  field_variant:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   field_wrapper_css_class:
     weight: 26

@@ -1,0 +1,19 @@
+uuid: 7c2d3c1b-9145-485a-9c99-645a083f69f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.testimonials
+    - field.storage.block_content.field_designation
+id: block_content.testimonials.field_designation
+field_name: field_designation
+entity_type: block_content
+bundle: testimonials
+label: Designation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
