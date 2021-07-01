@@ -67,5 +67,8 @@
     "serve": "gulp serve",
     "watch": "gulp watch"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  }
 }

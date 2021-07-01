@@ -54,6 +54,7 @@ function fetraining_preprocess_page(&$variables) {
   else {
     $variables['attributes']['class'][] = Html::cleanCssIdentifier('page-standard');
   }
+  $variables['#attached']['library'][] =  'fetraining/service_filter';
 }
 
 /**

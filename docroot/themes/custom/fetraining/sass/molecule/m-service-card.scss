@@ -1,0 +1,18 @@
+.Services-box {
+  &:hover {
+    background: #8308eb;
+    transition: ease-in all 0.5s;
+    cursor: pointer;
+  }
+
+  .logo {
+    background: #fff;
+    border-radius: 50px;
+    display: inline-block;
+    padding-top: 19px;
+  }
+
+  h3 {
+    color: #fff;
+  }
+}
