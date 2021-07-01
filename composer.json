@@ -15,13 +15,16 @@
         "drupal/bootstrap_layouts": "^5.2",
         "drupal/cog": "^1.0.0",
         "drupal/config_split": "^1.0.0",
+        "drupal/contact_block": "^1.5",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-recommended": "^8.8.0",
         "drupal/devel": "^2.0.0",
         "drupal/features": "^3.8.0",
         "drupal/qa_accounts": "^1.0.0-alpha1",
         "drupal/seckit": "^1.0.0-alpha2",
-        "drupal/shield": "^1.2.0"
+        "drupal/shield": "^1.2.0",
+        "drupal/slick_views": "^2.4",
+        "drupal/views_slideshow": "^4.8"
     },
     "require-dev": {
         "acquia/blt-require-dev": "11.x-dev",

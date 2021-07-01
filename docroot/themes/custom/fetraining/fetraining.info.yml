@@ -7,3 +7,4 @@ base theme: classy
 libraries:
   - fetraining/fontawesome
   - fetraining/global_styles
+  - fetraining/service_filter

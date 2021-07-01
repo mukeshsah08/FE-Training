@@ -1,0 +1,38 @@
+.block-views-blockbest-services-block-1 {
+  margin-top: 90px;
+  padding: 60px 0;
+  background: #0c0f38;
+  color: #ffffff;
+  .best-services-listing {
+    text-align: center;
+
+    h2 {
+      padding-bottom: 20px;
+      color: #ffffff;
+    }
+
+    .view-header {
+      font-size: 15px;
+      padding-bottom: 60px;
+    }
+
+    .view-content {
+      .grid {
+        margin: 0 0.4em 0.20em 0.4em;
+      }
+    }
+
+    .view-footer {
+      .read-more {
+        background-color: #fff;
+        color: #000;
+
+        &:hover {
+          background: #8308eb;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+}

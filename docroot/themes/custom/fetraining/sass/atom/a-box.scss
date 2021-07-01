@@ -1,0 +1,18 @@
+.box {
+  text-align: center;
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 40px;
+  border: #cecfd7 solid 2px;
+  transition: ease-in all 0.5s;
+  margin-bottom: 30px;
+
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  h3 {
+    padding: 20px 0px 20px 0px;
+  }
+}

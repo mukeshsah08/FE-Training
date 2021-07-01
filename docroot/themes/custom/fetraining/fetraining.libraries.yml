@@ -9,3 +9,10 @@ global_styles:
     theme:
       bootstrap/css/bootstrap.min.css: {}
       css/styles.css: {}
+service_filter:
+  version: 1.0
+  js:
+    js/service_filter.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

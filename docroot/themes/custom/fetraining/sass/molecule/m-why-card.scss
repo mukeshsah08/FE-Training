@@ -1,0 +1,10 @@
+.why-box {
+  box-shadow: #ddd 0px 0px 10px;
+  border: none;
+  padding: 40px 20px 20px 20px;
+
+  &:hover {
+    transition: ease-in all 0.1s;
+    transform: scale(1.04);
+  }
+}

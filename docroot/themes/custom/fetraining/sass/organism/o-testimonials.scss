@@ -1,0 +1,28 @@
+.testimonials-listing-block {
+  background-color: #f6f9fd;
+  padding: 60px 0;
+
+  h2 {
+    padding-bottom: 40px;
+  }
+
+
+  .slick-dots {
+    li {
+      button {
+        &:before {
+          color: #ed502e;
+          opacity: .25;
+        }
+      }
+    }
+    .slick-active {
+      button {
+        &:before {
+          color: #ed502e;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
