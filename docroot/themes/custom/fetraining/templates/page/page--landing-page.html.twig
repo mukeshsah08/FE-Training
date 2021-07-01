@@ -52,7 +52,7 @@
          {{ page.header }}
         </div>
       </div>
-    </div>   
+    </div>
   </header>
   <main role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
@@ -78,12 +78,8 @@
   {% if page.footer %}
     <footer role="contentinfo">
       <div class="o-footer">
-        <div class="container">
-            <div class="row">
-              {{ page.footer }}
-           </div>
-        </div>
-      </div>  
+        {{ page.footer }}
+      </div>
     </footer>
   {% endif %}
 
