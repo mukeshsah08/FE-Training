@@ -1,0 +1,14 @@
+uuid: d8238462-80e7-47d0-aa3b-b4c59cb7e81d
+name: 'FE Training'
+mail: no-reply@acquia.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/7
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

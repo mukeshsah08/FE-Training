@@ -1,0 +1,22 @@
+uuid: 1f596ead-be61-404a-8cc3-8dcdfca76e34
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fetraining
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: fetraining_content
+theme: fetraining
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

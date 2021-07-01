@@ -1,0 +1,23 @@
+uuid: 6360b94c-15db-45d2-886b-f21eb45ab47a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.generic_block
+    - field.storage.block_content.field_link
+  module:
+    - link
+id: block_content.generic_block.field_link
+field_name: field_link
+entity_type: block_content
+bundle: generic_block
+label: Link
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

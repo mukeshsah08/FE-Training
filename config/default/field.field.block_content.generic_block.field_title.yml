@@ -1,0 +1,19 @@
+uuid: 8e2ddb30-27dd-440f-8a52-c95aba9183c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.generic_block
+    - field.storage.block_content.field_title
+id: block_content.generic_block.field_title
+field_name: field_title
+entity_type: block_content
+bundle: generic_block
+label: Sub-title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

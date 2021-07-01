@@ -1,0 +1,22 @@
+uuid: c5945391-c457-49a5-a57d-9d9a6db87e82
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - fetraining_bootstrap
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: fetraining_bootstrap_powered
+theme: fetraining_bootstrap
+region: top_header
+weight: -3
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
