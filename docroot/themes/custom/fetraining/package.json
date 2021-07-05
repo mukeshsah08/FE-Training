@@ -12,7 +12,8 @@
     "breakpoint-sass": "^2.7.1",
     "browser-sync": "^2.26.14",
     "del": "^3.0.0",
-    "eslint": "^4.13.1",
+    "eslint": "^5.0.0",
+    "prettier": "^1.13.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
@@ -67,7 +68,9 @@
     "serve": "gulp serve",
     "watch": "gulp watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "eslint-plugin-prettier": "^3.4.0"
+  },
   "resolutions": {
     "graceful-fs": "^4.2.4"
   }

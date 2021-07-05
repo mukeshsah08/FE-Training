@@ -1,0 +1,22 @@
+uuid: 57c1bc2a-83a6-428a-bdeb-2cd2eb935d78
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fetraining_bootstrap
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: fetraining_bootstrap_messages
+theme: fetraining_bootstrap
+region: top_header
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

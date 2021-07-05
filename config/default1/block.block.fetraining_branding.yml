@@ -1,0 +1,25 @@
+uuid: 6157e992-458d-4bb7-8b14-f9e3b84f396d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fetraining
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: fetraining_branding
+theme: fetraining
+region: header
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

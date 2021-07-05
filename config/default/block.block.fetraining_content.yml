@@ -1,6 +1,6 @@
 uuid: 1f596ead-be61-404a-8cc3-8dcdfca76e34
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: fetraining_content
 theme: fetraining
 region: content
-weight: 0
+weight: -6
 provider: null
 plugin: system_main_block
 settings:

@@ -11,7 +11,7 @@ id: block_content.generic_block.body
 field_name: body
 entity_type: block_content
 bundle: generic_block
-label: Body
+label: Description
 description: ''
 required: false
 translatable: true

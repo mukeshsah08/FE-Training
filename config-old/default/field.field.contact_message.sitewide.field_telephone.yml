@@ -1,0 +1,23 @@
+uuid: abb26604-d467-4151-a799-99f54e81d634
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.sitewide
+    - field.storage.contact_message.field_telephone
+id: contact_message.sitewide.field_telephone
+field_name: field_telephone
+entity_type: contact_message
+bundle: sitewide
+label: Telephone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

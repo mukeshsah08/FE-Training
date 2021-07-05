@@ -1,0 +1,22 @@
+uuid: e5e2b252-c7b1-40ef-ad85-1d5d899ef522
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - fetraining_bootstrap
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: fetraining_bootstrap_breadcrumbs
+theme: fetraining_bootstrap
+region: top_header
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

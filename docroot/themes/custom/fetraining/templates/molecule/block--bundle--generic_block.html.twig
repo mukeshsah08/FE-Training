@@ -25,7 +25,7 @@
                 {% if label %}
                 <{{heading_type}}>{{ label }}</{{heading_type}}>
                 {% endif %}
-                {# end of title #}   
+                {# end of title #}
                 {{ title_suffix }}
                 {% if content['field_title'] %}
                 <span>{{ content['field_title'] }}</span>
@@ -47,7 +47,7 @@
   <div class="container">
     {% if label %}
      <div class="row">
-        <div class="col-md-12">          
+        <div class="col-md-12">
            <div class="titlepage">
               <{{heading_type}}>{{ label }}</{{heading_type}}>
               {{ title_suffix }}
@@ -55,7 +55,7 @@
         </div>
      </div>
      {% endif %}
-     
+
      <div class="row">
         <div class="col-md-12">
            <div class="web_hosting">
@@ -64,7 +64,7 @@
             {% endif %}
             {% if content['field_banner_image'] %}
               <figure>{{ content['field_banner_image'] }}</figure>
-            {% endif %}  
+            {% endif %}
             {{ content['body'] }}
             {{ content['field_link'] }}
            </div>
@@ -82,7 +82,7 @@
          {{ title_suffix }}
       </div>
       {% endif %}
-      
+
       {{ content['body'] }}
       <div class="web_hosting">
         {{ content['field_link'] }}
@@ -96,16 +96,16 @@
             {% if label %}
               <{{heading_type}}>{{ label }}</{{heading_type}}>
               {% endif %}
-              {{ title_suffix }}   
+              {{ title_suffix }}
             <div>{{ content['field_title'] }}</div>
-          </div>  
-          {{ content['body'] }} 
-          <div class="web_hosting">  
+          </div>
+          {{ content['body'] }}
+          <div class="web_hosting">
             {{ content['field_link'] }}
           </div>
 </section>
 {% elseif display_order == 'aboutus_tile' %}
-  <div class="m-aboutus-count-box"> 
+  <div class="m-aboutus-count-box">
     <div class="icon-count">
       <div class="row"><div class="col-md-4">  {% if content['field_banner_image'] %}
         <figure>{{ content['field_banner_image'] }}</figure>
@@ -120,5 +120,5 @@
   {{ content['body'] }}
   {{ content['field_link'] }}
 </div>
-  </div>     
+  </div>
 {% endif %}

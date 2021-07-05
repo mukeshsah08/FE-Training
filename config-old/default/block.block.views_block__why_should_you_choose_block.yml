@@ -1,0 +1,30 @@
+uuid: a83bfa26-a6c5-43ee-a436-6197a6bde590
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.why_should_you_choose
+  module:
+    - system
+    - views
+  theme:
+    - fetraining
+id: views_block__why_should_you_choose_block
+theme: fetraining
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:why_should_you_choose-block_1'
+settings:
+  id: 'views_block:why_should_you_choose-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

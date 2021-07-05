@@ -1,6 +1,6 @@
 uuid: 79ac816b-0adf-4273-b232-98efcabebee0
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - fetraining
@@ -9,7 +9,7 @@ _core:
 id: fetraining_page_title
 theme: fetraining
 region: content
-weight: -9
+weight: 0
 provider: null
 plugin: page_title_block
 settings:

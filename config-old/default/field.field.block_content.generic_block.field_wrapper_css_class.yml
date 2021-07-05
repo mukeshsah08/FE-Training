@@ -1,0 +1,19 @@
+uuid: d27fb24c-61ec-47da-be68-bafc14366636
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.generic_block
+    - field.storage.block_content.field_wrapper_css_class
+id: block_content.generic_block.field_wrapper_css_class
+field_name: field_wrapper_css_class
+entity_type: block_content
+bundle: generic_block
+label: 'Wrapper CSS Class'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: 5a9a6fb4-98a3-4f4e-bd9d-31af41248f50
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cate
+    - node.type.services
+id: node.services.field_cate
+field_name: field_cate
+entity_type: node
+bundle: services
+label: Cate
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

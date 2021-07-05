@@ -1,0 +1,30 @@
+uuid: 83a535a5-db6a-48a6-9c65-2aa43c8589d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.testimonials
+  module:
+    - system
+    - views
+  theme:
+    - fetraining
+id: views_block__testimonials_block
+theme: fetraining
+region: content
+weight: -1
+provider: null
+plugin: 'views_block:testimonials-block_1'
+settings:
+  id: 'views_block:testimonials-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /service
+    negate: false
+    context_mapping: {  }

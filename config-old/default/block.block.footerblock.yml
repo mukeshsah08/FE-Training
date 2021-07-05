@@ -1,0 +1,25 @@
+uuid: 7264f5e3-03ab-4b94-bd9c-6ef12fc59a89
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:text:28a5db2d-52a4-4e0f-9738-293cc104c891'
+  module:
+    - block_content
+  theme:
+    - fetraining
+id: footerblock
+theme: fetraining
+region: footer
+weight: -7
+provider: null
+plugin: 'block_content:28a5db2d-52a4-4e0f-9738-293cc104c891'
+settings:
+  id: 'block_content:28a5db2d-52a4-4e0f-9738-293cc104c891'
+  label: 'Contact Now'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

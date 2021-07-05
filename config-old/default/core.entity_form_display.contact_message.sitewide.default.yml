@@ -1,0 +1,53 @@
+uuid: 63032a07-d631-4ae3-9029-51267e89eb30
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.sitewide
+    - field.field.contact_message.sitewide.field_email
+    - field.field.contact_message.sitewide.field_message
+    - field.field.contact_message.sitewide.field_name
+    - field.field.contact_message.sitewide.field_telephone
+id: contact_message.sitewide.default
+targetEntityType: contact_message
+bundle: sitewide
+mode: default
+content:
+  field_email:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: Email
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: Name
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_telephone:
+    weight: 2
+    settings:
+      placeholder: Phone
+    third_party_settings: {  }
+    type: number
+    region: content
+  message:
+    type: string_textarea
+    weight: 3
+    settings:
+      rows: 3
+      placeholder: Message
+    region: content
+    third_party_settings: {  }
+hidden:
+  copy: true
+  field_message: true
+  mail: true
+  name: true
+  preview: true
+  subject: true

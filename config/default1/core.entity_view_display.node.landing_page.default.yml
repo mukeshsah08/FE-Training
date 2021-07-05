@@ -1,0 +1,97 @@
+uuid: e8a0d7ae-ce7a-4988-98e1-b87d41d1462f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.landing_page.body
+    - field.field.node.landing_page.field_meta_tags
+    - field.field.node.landing_page.layout_builder__layout
+    - field.field.node.landing_page.layout_selection
+    - node.type.landing_page
+    - system.menu.main
+  module:
+    - layout_builder
+    - layout_builder_restrictions
+    - layout_discovery
+    - layout_library
+    - metatag
+    - system
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: Header
+        components:
+          30fba03d-612b-4f7d-9034-ac2b28ef23dd:
+            uuid: 30fba03d-612b-4f7d-9034-ac2b28ef23dd
+            region: content
+            configuration:
+              id: system_branding_block
+              label: 'Site branding'
+              provider: system
+              label_display: '0'
+              use_site_logo: true
+              use_site_name: false
+              use_site_slogan: false
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+          4666e6ac-77ab-47b5-89f9-752e26ee59c3:
+            uuid: 4666e6ac-77ab-47b5-89f9-752e26ee59c3
+            region: content
+            configuration:
+              id: 'system_menu_block:main'
+              label: 'Main navigation'
+              provider: system
+              label_display: '0'
+              level: 1
+              depth: 0
+              expand_all_items: false
+              context_mapping: {  }
+            additional: {  }
+            weight: 1
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components: {  }
+        third_party_settings: {  }
+  layout_library:
+    enable: true
+  layout_builder_restrictions:
+    entity_view_mode_restriction:
+      whitelisted_blocks: {  }
+      allowed_layouts:
+        - layout_onecol
+        - layout_twocol_section
+        - layout_threecol_section
+        - layout_fourcol_section
+      blacklisted_blocks: {  }
+    allowed_block_categories: {  }
+_core:
+  default_config_hash: LSefcEOqN7djHmmcvteasL4ahegCSrEj1l0YLmj8vyY
+id: node.landing_page.default
+targetEntityType: node
+bundle: landing_page
+mode: default
+content:
+  field_meta_tags:
+    type: metatag_empty_formatter
+    region: content
+    label: hidden
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  content_moderation_control: true
+  layout_builder__layout: true
+  layout_selection: true
+  links: true
+  search_api_excerpt: true

@@ -4,6 +4,8 @@ module:
   blazy: 0
   block: 0
   block_content: 0
+  bootstrap_layout_builder: 0
+  bootstrap_styles: 0
   breakpoint: 0
   ckeditor: 0
   config: 0
@@ -66,6 +68,8 @@ module:
   media_entity_instagram: 0
   media_entity_twitter: 0
   media_library: 0
+  media_library_form_element: 0
+  media_library_theme_reset: 0
   menu_link_content: 0
   menu_ui: 0
   metatag: 0

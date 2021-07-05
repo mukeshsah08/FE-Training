@@ -1,0 +1,14 @@
+uuid: 89ec80b6-d045-4acc-8a69-ded10ec89e23
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.services_creator
+  module:
+    - user
+id: user_add_role_action.services_creator
+label: 'Add the Services creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: services_creator

@@ -1,0 +1,14 @@
+uuid: e6e2a5ee-c536-4246-bc43-0e0e081656e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.services_creator
+  module:
+    - user
+id: user_remove_role_action.services_creator
+label: 'Remove the Services creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: services_creator

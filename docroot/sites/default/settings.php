@@ -805,9 +805,9 @@ require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
  * @link https://docs.acquia.com/blt/
  */
 $databases['default']['default'] = array (
-  'database' => 'drupal',
-  'username' => 'drupal',
-  'password' => 'drupal',
+  'database' => 'fetest',
+  'username' => 'root',
+  'password' => 'root',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',

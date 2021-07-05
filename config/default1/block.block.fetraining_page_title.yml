@@ -1,0 +1,27 @@
+uuid: 79ac816b-0adf-4273-b232-98efcabebee0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fetraining
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: fetraining_page_title
+theme: fetraining
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/homepage\r\n/about\r\n/service"
+    negate: true
+    context_mapping: {  }

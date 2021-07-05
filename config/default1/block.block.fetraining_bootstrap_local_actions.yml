@@ -1,0 +1,20 @@
+uuid: 28c2e2e4-c631-4f4f-ad2b-450ae54ad4bc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - fetraining_bootstrap
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: fetraining_bootstrap_local_actions
+theme: fetraining_bootstrap
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

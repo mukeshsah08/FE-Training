@@ -1,0 +1,92 @@
+uuid: fe2f49b8-0806-4927-961f-b40c4a1e89a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.generic_block
+    - entity_browser.browser.image_browser
+    - field.field.block_content.generic_block.body
+    - field.field.block_content.generic_block.field_banner_image
+    - field.field.block_content.generic_block.field_display_order
+    - field.field.block_content.generic_block.field_heading_type
+    - field.field.block_content.generic_block.field_link
+    - field.field.block_content.generic_block.field_title
+    - field.field.block_content.generic_block.field_wrapper_css_class
+  module:
+    - entity_browser
+    - link
+    - text
+id: block_content.generic_block.default
+targetEntityType: block_content
+bundle: generic_block
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 2
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  field_banner_image:
+    type: entity_browser_file
+    weight: 3
+    settings:
+      entity_browser: image_browser
+      field_widget_edit: true
+      field_widget_remove: true
+      view_mode: default
+      preview_image_style: thumbnail
+      open: true
+      field_widget_replace: false
+      selection_mode: selection_append
+    region: content
+    third_party_settings: {  }
+  field_display_order:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_heading_type:
+    weight: 29
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_link:
+    weight: 4
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_wrapper_css_class:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

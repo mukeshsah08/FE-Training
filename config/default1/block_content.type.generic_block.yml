@@ -1,0 +1,8 @@
+uuid: e1f1e74f-3f7e-432b-a5d9-01b93c3dd70a
+langcode: en
+status: true
+dependencies: {  }
+id: generic_block
+label: 'Generic Block'
+revision: 0
+description: 'This is a generic block having title, text, CTA and image, can have options to choose variants like left, right and centre alignment.'

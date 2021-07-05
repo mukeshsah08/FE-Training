@@ -1,0 +1,21 @@
+uuid: 212365be-7a5e-4cd1-b664-cfb0284fd2de
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.generic_block
+    - field.storage.block_content.field_heading_type
+  module:
+    - options
+id: block_content.generic_block.field_heading_type
+field_name: field_heading_type
+entity_type: block_content
+bundle: generic_block
+label: 'Heading type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

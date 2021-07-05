@@ -72,6 +72,8 @@ third_party_settings:
         - layout_twocol_section
         - layout_threecol_section
         - layout_fourcol_section
+        - 'bootstrap_layout_builder:blb_col_2'
+        - 'bootstrap_layout_builder:blb_col_4'
       blacklisted_blocks: {  }
     allowed_block_categories: {  }
 _core:
