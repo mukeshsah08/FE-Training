@@ -1,30 +1,26 @@
-#block-views-block-why-should-you-choose-block {
+.why-listing {
   margin-top: 90px;
   background: #ffff;
   text-align: center;
 
+  .view-header {
+    font-size: 15px;
+    padding-bottom: 60px;
+  }
 
-  .why-listing {
-    .view-header {
-      font-size: 15px;
-      padding-bottom: 60px;
+  .view-content {
+    .grid {
+      padding: 0.8em;
     }
 
-    .view-content {
-      .grid {
-        padding: 0.8em;
-      }
+    .read-more {
+      background-color: #090808;
+      color: #fff;
 
-      .read-more {
-        background-color: #090808;
+      &:hover {
+        background: #8308eb;
         color: #fff;
-
-        &:hover {
-          background: #8308eb;
-          color: #fff;
-        }
       }
     }
   }
-
 }
